@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register - eRuang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/plugins/fontawesome-free/css/all.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="assets/plugins/icheck-bootstrap/icheck-bootstrap.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="assets/css/adminlte.min.css">
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
+    <style>
+        .login-box {
+            width: 400px;
+            margin: 50px auto;
+        }
+
+        .login-logo h3 {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .input-group p {
+            flex: 1;
+            margin: 0;
+            line-height: 38px;
+        }
+
+        .form-control {
+            flex: 2;
+        }
+
+        .input-group {
+            display: flex;
+            align-items: center;
+        }
+
+        .card {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #495057;
+        }
+
+        .btn-primary {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        a {
+            font-size: 0.9rem;
+            text-decoration: underline;
+            color: black;
+        }
+    </style>
+</head>
+
+<body class="hold-transition login-page">
+    <div class="login-box">
+        <div class="login-logo">
+            <h3 class="aku-u">Registrasi User</h3>
+        </div>
+        <!-- /.login-logo -->
+        <div class="card">
+            <div class="card-body login-card-body">
+                <form action="#" method="post">
+                    <div class="input-group mb-3">
+                        <p>Nama Lengkap :</p>
+                        <input type="text" class="form-control border" id="nama_lengkap" name="nama_lengkap">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <p>Email :</p>
+                        <input type="email" class="form-control border" id="email" name="email">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <p>Username :</p>
+                        <input type="text" class="form-control border" id="username" name="username">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <p>Password :</p>
+                        <input type="password" class="form-control border" id="password" name="password">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <p>Cek Password :</p>
+                        <input type="password" class="form-control border" id="password_confirmation" name="password_confirmation">
+                    </div>
+
+                    <div class="mb-3 text-center">
+                        <a href="login.html">Sudah memiliki akun?</a>
+                    </div>
+
+                    <div>
+                        <button type="button" id="registerButton" class="btn btn-primary">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>Developed by Kelompok 4 &copy; 2025</footer>
+
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/adminlte.min.js"></script>
+    <script src="js/register.js"></script>
+</body>
+
+</html>
